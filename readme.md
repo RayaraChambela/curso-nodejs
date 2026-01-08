@@ -5,3 +5,9 @@ V8 -> Parte que entende o JS
 libuv -> biblioteca que deu caracteristicas de uma linguagem backend para o node
 
 MODULOS -> No Node.js, módulos servem pra dividir código e controlar o que entra e o que sai de cada arquivo.
+
+FRAMEWORK -> Ferramente para facilitar
+
+EXPRESS -> Framework utilizado para criar aplicações backend e web
+
+npm -> maiore repositorio de bibliotecas que existe
