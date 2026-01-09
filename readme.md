@@ -8,6 +8,9 @@ MODULOS -> No Node.js, módulos servem pra dividir código e controlar o que ent
 
 FRAMEWORK -> Ferramente para facilitar
 
-EXPRESS -> Framework utilizado para criar aplicações backend e web
+EXPRESS -> Framework utilizado para criar aplicações backend e web, baseado em rotas
 
 npm -> maiore repositorio de bibliotecas que existe
+
+ROTAS -> Caminho para a sua aplicação "/rota"
+

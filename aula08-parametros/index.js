@@ -13,9 +13,10 @@ app.get("/blog", function(req, res){
     res.send("Bem-vindo ao meu blog!");
 })
 
-//ROTAS -> Caminho para a sua aplicação
-//req -> requisição
-//res -> objeto que você usa para mandar mensagem para o cliente
+app.get('/ola/:nome/:cargo', function(req, res){ //eu consigo receber os parametros fornecidos em formato json
+    res.send("Olá " + req.params.nome + "Seu cargo é: " + req.params.cargo + "Sua cor favorita é " + req.params.cor); // a função send só pode ser enviado uma única vez
+})
+
 
 app.listen(8081, function(){ //função de callback
     console.log("Servidor Rodando na url http://localhost:8081")
