@@ -16,6 +16,8 @@ ROTAS -> Caminho para a sua aplicação "/rota"
 
 SEQUELIZE -> ORM 
 
+doskey xmysql="C:\xampp\mysql\bin\mysql.exe" -h 127.0.0.1 -P 3307 -u root
+
 Usar "xmysql" para inicializar o banco
 
 
