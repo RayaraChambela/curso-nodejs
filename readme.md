@@ -20,6 +20,7 @@ doskey xmysql="C:\xampp\mysql\bin\mysql.exe" -h 127.0.0.1 -P 3307 -u root
 
 Usar "xmysql" para inicializar o banco
 
+HANDLER -> Executa a lógica 
 
 MANIPULANDO MYSQL
 
@@ -76,3 +77,7 @@ SELECT ROW_COUNT();
 
 -- Conferir antes de atualizar/deletar (padrão seguro)
 SELECT * FROM usuarios WHERE id = 5;
+
+
+MONGO DB -> Banco de dados sem esquemas orientado a documentos
+-> Utiliza a estrutura de dados JSON
